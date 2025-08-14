@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6eff6;
+    font-family: "Karla", Arial, Helvetica, sans-serif;
+}
+
