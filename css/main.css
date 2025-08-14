@@ -108,3 +108,31 @@ button{
     border-radius: 5px;
     box-shadow: 3px 4px 5px -5px black;
 }
+
+/******************************************************/
+/*Responsive*/
+
+@media screen and (max-width:380px) {
+
+    .card{
+        width: 90%;
+    }
+
+    .row_down{
+        flex-direction: column;
+    }
+
+    .dx{
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .sx{
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+
+
+}
