@@ -9,3 +9,40 @@ body{
     font-family: "Karla", Arial, Helvetica, sans-serif;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+
+    background-color: red;
+    border-radius: 10px;
+    width: 50vw;
+    height: 80vh;
+    margin: 10vh auto;
+}
+
+.row{
+    display: flex;
+
+}
+
+.row_up{
+    border-color: aqua;
+    height: 50%;
+    width: 100%;
+}
+
+.row_down{
+    display: flex;
+    flex-direction: row;
+
+    background-color: blueviolet;
+    height: 50%;
+}
+
+.col{
+    padding: 40px;
+}
+
+.row_down .col{
+    width: 50%;
+}
