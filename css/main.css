@@ -5,11 +5,17 @@
 }
 
 body{
-    color: rgb(255, 255, 255);
-    font-size: 16px;
+    color: rgb(222, 222, 222);
+    font-size: 14px;
     background-color: #e6eff6;
     font-family: "Karla", Arial, Helvetica, sans-serif;
 }
+
+ul{
+    margin: 20px 0 0 0;
+    list-style-type: none;
+}
+
 
 h1{
     font-size: 24px;
@@ -18,15 +24,15 @@ h1{
 }
 
 h3{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: hsl(71, 68%, 46%);
     margin: 20px 0 10px 0;
 }
 
 h4{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 600;
     color: hsl(0, 0%, 100%);
     margin-bottom: 16px;
 }
@@ -42,11 +48,12 @@ strong{
 }
 
 span{
+    color: hsl(206, 10%, 87%);
     vertical-align: super;
 }
 
 .sx div{
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .card{
@@ -55,8 +62,8 @@ span{
 
     background-color: white;
     border-radius: 10px;
-    width: 50%;
-    margin: 15vh auto;
+    width: 45%;
+    margin: 10vh auto;
 }
 
 .row{
@@ -75,13 +82,29 @@ span{
 }
 
 .col{
-    padding: 40px;
-}
-
-.row_down .col{
-    width: 50%;
+    padding: 38px;
 }
 
 .sx{
+    width: 50%;
+    border-radius: 0 0 0 10px;
     background-color:#2bb3b1;
+}
+
+.dx{
+    width: 50%;
+    border-radius: 0 0 10px 0;
+    background-color: #4abebd;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 15px;
+    color: white;
+    width: 100%;
+    background-color: hsl(71, 68%, 46%);
+    padding: 15px 0;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px -5px black;
 }
