@@ -5,6 +5,7 @@
 }
 
 body{
+    color: rgb(255, 255, 255);
     font-size: 16px;
     background-color: #e6eff6;
     font-family: "Karla", Arial, Helvetica, sans-serif;
@@ -20,12 +21,32 @@ h3{
     font-size: 18px;
     font-weight: 400;
     color: hsl(71, 68%, 46%);
-    margin: 20px 0 10px 0 ;
+    margin: 20px 0 10px 0;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 16px;
 }
 
 p{
-    font-weight: 500;
     color: hsl(218, 22%, 67%);
+    font-weight: 500;
+}
+
+strong{
+    font-size: 30px;
+    color: white;
+}
+
+span{
+    vertical-align: super;
+}
+
+.sx div{
+    margin: 10px 0;
 }
 
 .card{
@@ -34,9 +55,8 @@ p{
 
     background-color: white;
     border-radius: 10px;
-    width: 50vw;
-    height: 80vh;
-    margin: 10vh auto;
+    width: 50%;
+    margin: 15vh auto;
 }
 
 .row{
@@ -52,8 +72,6 @@ p{
     display: flex;
     flex-direction: row;
 
-    background-color: blueviolet;
-    height: 50%;
 }
 
 .col{
@@ -62,4 +80,8 @@ p{
 
 .row_down .col{
     width: 50%;
+}
+
+.sx{
+    background-color:#2bb3b1;
 }
